@@ -1,0 +1,32 @@
+{
+  "release_name": "v1.2.3",
+  "repositories": [
+    {
+      "name": "PortalConsultoras2",
+      "branches": [
+        "TS/SDP-55887",
+        "TS/SDP-72665"
+      ]
+    },
+    {
+      "name": "WSConsultoras",
+      "branches": [
+        "TS/SDP-55887",
+        "TS/SDP-72665"
+      ]
+    }
+  ],
+  "integration_branch": "integration/v1.2.3-ams",
+  "release_target": "release/v1.2.3",
+  "pr_settings": {
+    "title_prefix": "[Homologación]",
+    "labels": [
+      "homologation",
+      "auto-generated"
+    ]
+  },
+  "notifications": {
+    "success_message": "El proceso de homologación y empaquetado de {release_name} se completó con éxito.",
+    "failure_message": "Hubo errores en la homologación de {release_name}. Revisa los PRs pendientes."
+  }
+}
