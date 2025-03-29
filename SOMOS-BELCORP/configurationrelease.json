@@ -16,8 +16,8 @@
       ]
     }
   ],
-  "integration_branch": "integration/v1.2.3-ams",
-  "release_target": "release/v1.2.3",
+  "integration_branch": "master",
+  "release_target": "integration/v1.2.3-ams",
   "pr_settings": {
     "title_prefix": "[Homologación]",
     "labels": [
